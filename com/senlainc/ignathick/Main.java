@@ -58,6 +58,7 @@ public class Main {
             String s = Util.getScanFromStringKeyboard();
             Task6 t6 = new Task6(s);
             System.out.println("You enter: " + t6.getValue() + ". Line without letter is: " + t6.removeNumbers());
+            //Test
         }
 
     }
