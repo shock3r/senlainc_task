@@ -11,7 +11,6 @@ import com.senlainc.ignathick.utils.Util;
 public class Main {
 
     public static void main(String[] args) {
-
         System.out.println("Please enter task number:");
         int chooseNumber = Util.getScanFromKeyboard();
 
@@ -59,6 +58,5 @@ public class Main {
             Task6 t6 = new Task6(s);
             System.out.println("You enter: " + t6.getValue() + ". Line without letter is: " + t6.removeNumbers());
         }
-
     }
 }
